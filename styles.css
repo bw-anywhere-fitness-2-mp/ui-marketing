@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -25,6 +25,8 @@ time, mark, audio, video {
     box-sizing: border-box;
     max-width: 100%;
     /* border: 1px solid grey; */
+    margin: 0;
+	padding: 0;
 }
 
 html{
@@ -36,11 +38,26 @@ body{
     line-height: 2.5rem;
     background-color: #F5F5F5;
     color: black;
-    font-family: 'Orbitron', sans-serif;;
+    font-family: 'Nunito', sans-serif;
     
 }
 
 /*Header Styles*/
+
+.nav-links{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    margin: 0 1%;
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 0.5% 1%;
+    border-radius: 5%;
+}
 
 .title-container {
     display: flex;
@@ -54,6 +71,10 @@ h1{
    font-size: 4rem;
    padding: 3%;
 }
+
+/* h2{
+    font-family: 'Orbitron', sans-serif;
+} */
 
 .header-img{
     display: flex; 
@@ -79,12 +100,15 @@ h1{
     align-items: center;
 }
 
-nav{
+.login-button{
     color: white;
     text-decoration: none;
     width: 14rem;
     height: 7rem;
+    background: blue;
 }
+
+/*Class Section*/
 
 #classes, #instructor{
     display: flex;
@@ -97,36 +121,91 @@ nav{
 }
 
 .class-img{
-    filter: contrast(200%);
-    mix-blend-mode: multiply;
+    filter: contrast(130%);
+    /* mix-blend-mode: multiply; */
 }
 .text-container{
     font-size: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
     line-height: 3rem;
+    justify-content: center;
+    /* background: red; */
 }
 
 .text-container p{
-    font-size: 2rem;
-    margin: 2%;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin: 3% 3% 0 3%;
+    font-family: 'Nunito', sans-serif;
+    padding: 2%;
 }
 
 .text-container h2{
     margin: 5%;
 }
 
-#about-us img{
+.about-button {
+    text-decoration: none;
+    font-size: 2rem;
+    background: black;
+    border-radius: 5%;
+    color: white;
+    padding: 2% 5%;
+}
+
+.about-us img{
     object-fit: cover;
-    object-position: bottom left;
-    /* position: relative; */
+    object-position: bottom;
+    position: relative;
     height: 40rem;
     width: 100%;
 }
 
-#about-us{
-    height:20rem; 
+/*Contact Section*/
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+    background:#e0e0dc;
+}
+
+.info{
+    width: 27%;
+    margin: 3%;
+}
+
+.links a, .links address{
+    line-height: 3rem;
+    text-decoration: none;
+    color: grey;
+}
+
+.contact h2{
+    font-size: 2rem;
+}
+
+
+/*Footer Section*/
+
+.footer-contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+}
+
+.footer-contact a{
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 0.5% 1%;
+    border-radius: 5%;
 }
