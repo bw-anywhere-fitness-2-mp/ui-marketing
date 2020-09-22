@@ -48,13 +48,14 @@ body{
     padding: 2%;
     display: flex;
     justify-content: flex-end;
+    background:#e0e0dc;
 }
 
 .nav-links a {
     margin: 0 1%;
     text-decoration: none;
-    color: white;
-    background: grey;
+    color: grey;
+    /* background: grey; */
     padding: 0.5% 1%;
     border-radius: 5%;
 }
@@ -72,40 +73,31 @@ h1{
    padding: 3%;
 }
 
-/* h2{
-    font-family: 'Orbitron', sans-serif;
-} */
+/*Top Section*/
 
 .header-img{
-    display: flex; 
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg);
     height: 40rem;
-    /* align-items: center;
-    justify-content: center; */
-}
-
-.header-img img{
-    object-fit: cover;
-    object-position: bottom left;
-    position: relative;
-    /* mix-blend-mode: luminosity; */
-    filter: contrast(130%);
-}
-
-.button{
-    padding: 1% 2%;
-    background-color: black;
-    border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.login-button{
-    color: white;
+.login-button a{
     text-decoration: none;
-    width: 14rem;
-    height: 7rem;
-    background: blue;
+    font-size: 2rem;
+    color: white;
+    font-size: 2.5rem;
+ 
+}
+
+.login-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    padding: 1% 4%;
+    border-radius: 5%;
 }
 
 /*Class Section*/
@@ -120,10 +112,6 @@ h1{
     margin: 3%;
 }
 
-.class-img{
-    filter: contrast(130%);
-    /* mix-blend-mode: multiply; */
-}
 .text-container{
     font-size: 3rem;
     display: flex;
