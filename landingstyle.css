@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+	
+}
+
+
+body {
+	font-size: 1.1rem;
+	background-color: #f7f7f7;
+}
+
+/*NAV AND HEADER STYLING*/
+	
+#landing-img{
+	border: 1px solid black;
+	height: 70vh;
+	background-image: url('https://i1.wp.com/www.suvatayoga.com/wp-content/uploads/2015/01/woman-with-arms-outstretched-against-blue-sky-317155.jpg?fit=1980%2C1322&ssl=1');
+	background-size: cover;
+}
+.nav {
+	padding: 2%;
+	display: flex;
+	justify-content: flex-end;
+	background: #e0e0dc;
+	height: 3vh;
+}
+
+
+.nav a {
+	margin: 0 1%;
+	text-decoration: none;
+	color: grey;
+	padding: 0.5% 1%;
+	border-radius: 5%;
+}
+
+.title {
+	height: 12vh;
+	text-align: center;
+	
+}
+
+.title h1 {
+	padding-top: 2%;
+	padding-bottom: 2%;;
+	font-family: 'Audiowide', cursive;
+	font-size: 3rem;
+}
+
+/*END OF HEADER NAV STYLE*/
+
+/*start of body*/
+
+.Headline {
+	
+	height: 8vh;
+	margin: 1%;
+	text-align: center;
+	
+}
+
+.Headline h1{
+	padding-top: 4%;
+	overflow: hidden;
+	border-right: .15em solid transparent;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .10em;
+	animation: typing 2.5s steps(40, end), blink-caret .75s step-end 3;
+	margin-top: 10%;
+	font-size: 7rem;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+
+@keyframes typing {
+	from {width: 0}
+	to {width: 70%}
+}
+
+@keyframes blink-caret {
+	from, to {border-color: transparent}
+	50% {border-color: black}
+}
+
+button {
+	margin: 3%;
+	background-color: black;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	width: 20%;
+	padding: 2%;
+	border: none;
+	font-size: 1.2rem;
+	font-weight: 200;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+/*INSTRUCTOR SECTION*/
+
+.parent1{
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+ .Instructor-img{
+	background-image: url("https://cdn.shopify.com/s/files/1/0009/1112/products/personal-trainer_1800x.jpg?v=1586368428");
+	width: 100%;
+	margin-top: 3%;
+	margin-left: 5%;
+	height: 70vh;
+	border-radius: 15px;
+	text-align: center;
+	border: 1px solid black;
+	padding: auto;
+}
+
+.Instructor-Det {
+
+width: 100%;
+height: 70vh;
+padding-top:10%;
+text-align: center;
+margin: 3%;
+margin-bottom: 0;
+}
+
+.Instructor-Det p {
+	border-bottom: 1px dashed black;
+	padding-bottom: 2.5%;
+}
+
+.Instructor-Det h2 {
+	padding-bottom: 3%;
+	font-size: 4rem;
+	border-bottom: 1px dashed black;
+}
+
+.Instructor-Det h4 {
+	font-size: 2.2rem;
+}
+
+.Instructor-img h2 {
+	color: #ff94a8;
+	padding-top: 38%;
+	font-size:5.5rem;
+	
+}
+
+.Instructor-Det ul {
+	text-align: left;
+	padding-left: 34%;
+}
+
+/*END OF INSTRUCTOR SECTION*/
+
+.fixed-img {
+	background-image: url("https://img.freepik.com/free-photo/gym-equipments-fitness-club_23-2147949744.jpg?size=626&ext=jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 35vh;
+	border: 1px solid black;
+}
+
+/*START OF CLIENT SECTION*/
+
+
+.parent2{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200;
+}
+
+ .Client-img {
+	background-image: url("https://serendipitysocial.com/wp-content/uploads/2016/04/Workouts-2016-GoStride.jpg");
+	background-size: cover;
+	border: 1px solid black;
+	color: whitesmoke;
+	width: 100%;
+	border-radius: 15px;
+	height: 70vh;
+	margin-right: 5%;
+}
+
+.Client-det {
+height: 70vh;
+padding-top:10%;
+text-align: center;
+	margin: 3%;
+	margin-top: 0;
+	width: 100%;
+}
+
+.Client-det p {
+	border-bottom: 1px dashed black;
+	padding-bottom: 2.5%;
+}
+
+.Client-det h2 {
+	padding-bottom: 3%;
+	font-size: 4rem;
+	border-bottom: 1px dashed black;
+}
+
+
+.Client-det h4 {
+	font-size: 2rem;
+}
+
+.Client-det ul {
+	text-align: left;
+	padding-left: 34%;
+}
+
+/*Footer Section*/
+.footer-contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+}
+.footer-contact a{
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 0.5% 1%;
+    border-radius: 5%;
+}
