@@ -83,6 +83,8 @@ h1{
     align-items: center;
     overflow: hidden;
     margin: 0 0 7% 0;
+    background-repeat: no-repeat;
+    background-position-x: -5rem;
 }
 
 .login-button a{
@@ -119,15 +121,17 @@ h1{
     margin: 3%;
 }
 
+#classes img{
+    filter: grayscale(15%);
+}
+
 .text-container{
     font-size: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* font-family: 'Orbitron', sans-serif; */
     line-height: 3rem;
     justify-content: center;
-    /* background: red; */
 }
 
 .text-container p{
@@ -142,6 +146,13 @@ h1{
     margin: 5%;
 }
 
+.about-us{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .about-button {
     text-decoration: none;
     font-size: 2rem;
@@ -149,18 +160,6 @@ h1{
     border-radius: 5%;
     color: white;
     padding: 2% 5%;
-}
-
-.about-button:hover{
-
-}
-
-.about-us img{
-    object-fit: cover;
-    object-position: bottom;
-    position: relative;
-    height: 40rem;
-    width: 100%;
 }
 
 /*Contact Section*/
@@ -216,7 +215,6 @@ h1{
 
 .home-workout{
     display: flex;
-    /* background: yellow; */
     justify-content: center;
     height: 60rem;
     margin: 0 0 1% 0;
@@ -225,7 +223,6 @@ h1{
 .workout-left-container{
     width: 50%;
     line-height: 2.5rem;
-    /* background: red; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -267,15 +264,14 @@ h1{
 
 .workout-right-container{
     display: flex;
-    width: 42%;
+    width: 45%;
     padding: 2% 0;
-}
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/11/02/15/yoga-day-4329901_1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 20rem;
+    background-position-y: -30rem;
 
-.workout-right-container img{
-   object-fit: cover; 
-   width: 100%;
-   height: 100%;
-   object-position: bottom;
 }
 
 /*Video Section*/
@@ -292,8 +288,12 @@ img{
     margin: 5% 0;
 }
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
-    width: 30%;
+    width: 40%;
     margin: 3%;
+}
+
+.image1{
+    width: 43%;
 }
 
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
@@ -309,12 +309,12 @@ img{
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
-    background: #eee;
+    background: #cff1ff;
 }
 
 .image1:hover .overlay-left, .image2:hover .overlay-left, .image3:hover .overlay-left, .image4:hover .overlay-left, .image5:hover .overlay-left, .image6:hover .overlay-left, .image7:hover .overlay-left, .image8:hover .overlay-left{
     width: 100%;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .text{
@@ -326,7 +326,7 @@ img{
 
 .text a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .overlay-left{
@@ -334,13 +334,9 @@ img{
     width: 100%;
     top:0;
     left:0;
-    background-color: black;
-    color: white;
+    background-color: #cff1ff;
+    color: black;
 }
-
-/* .image1:hover .overlay-left{
-    width: 100%;
-} */
 
 
 .middle-nav{
@@ -359,3 +355,65 @@ img{
 }
 
 /*Media Queries*/
+
+/*Tablet Styles for Landing Page at 800px*/
+
+@media (max-width: 800px){
+    .header-img{
+        background-position-x: -25rem;
+    }
+
+    #classes, #instructor{
+        flex-direction: column;
+        align-items: center;
+        margin: 7% 3%;
+    }
+
+    #classes img, #instructor img {
+        width: 90%;
+    }
+
+    #instructor h2{
+        margin: 5% 0 1% 0;
+    }
+
+    .contact{
+        margin-top: 7%;
+    }
+}
+
+/*Iphone Styles for Landing Page at 800px*/
+
+@media (max-width: 500px){
+
+    .title-container h1{
+       font-size: 3.8rem;
+    }
+
+    .header-img{
+        background-position-x: -50rem;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+}
+
+/*Tablet Styles for At-Home-Workouts Page at 800px*/
+
+@media (max-width: 800px){
+    .about-us{
+        background-position-x: -40rem;
+    }
+}
+
+/*Iphone Styles for Landing Page at 800px*/
+
+@media (max-width: 500px){
+
+}
