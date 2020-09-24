@@ -60,6 +60,10 @@ body{
     border-radius: 5%;
 }
 
+.nav-links a:hover{
+    color: #a4cbdb;
+}
+
 .title-container {
     display: flex;
     align-items: center;
@@ -82,7 +86,7 @@ h1{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin: 0 0 7% 0;
+    margin: 2% 0;
     background-repeat: no-repeat;
     background-position-x: -5rem;
 }
@@ -113,12 +117,12 @@ h1{
 
 #classes, #instructor{
     display: flex;
-    margin: 2% 0 7% 0;
+    margin: 0 2% 7% 2%;
 }
 
 #classes img, #instructor img{
-    width: 50%;
-    margin: 3%;
+    width: 40%;
+    margin: 5% 3%;
 }
 
 #classes img{
@@ -151,6 +155,7 @@ h1{
     height: 40rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0 0 3% 0;
 }
 
 .about-button {
@@ -183,6 +188,10 @@ h1{
     line-height: 3rem;
     text-decoration: none;
     color: grey;
+}
+
+.links a:hover, .links address:hover{
+    color: #a4cbdb;
 }
 
 .contact h2{
@@ -338,7 +347,7 @@ img{
     color: black;
 }
 
-
+/*Middle Navigation*/
 .middle-nav{
     display: flex;
     flex-wrap: wrap;
@@ -352,6 +361,10 @@ img{
     margin: 0 4%;
     text-decoration: none;
     color: grey;
+}
+
+.middle-nav a:hover{
+    color: #a4cbdb;
 }
 
 /*Media Queries*/
@@ -370,7 +383,7 @@ img{
     }
 
     #classes img, #instructor img {
-        width: 90%;
+        width: 70%;
     }
 
     #instructor h2{
@@ -407,13 +420,24 @@ img{
 /*Tablet Styles for At-Home-Workouts Page at 800px*/
 
 @media (max-width: 800px){
-    .about-us{
-        background-position-x: -40rem;
-    }
+   
 }
 
-/*Iphone Styles for Landing Page at 800px*/
+/*Iphone Styles for .at-home-workouts Page at 800px*/
 
 @media (max-width: 500px){
+    .workout-right-container {
+        background-position-x: -15rem;
+    }
+    .workout-text-container h2{
+        white-space: normal;
+    }
+    .at-home-workouts {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+        width: 75%;
+    }
 
 }
