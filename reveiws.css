@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+	
+}
+
+/*NAV AND HEADER STYLING*/
+body {
+	font-size: 1.1rem;
+	background-color: #f7f7f7;
+}
+
+
+#landing-img{
+    margin-bottom: 3%;
+	border: 2.5px solid black;
+    height: 50vh;
+	background-image: url('https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg');
+    background-size: cover;
+}
+.nav {
+	padding: 2%;
+	display: flex;
+	justify-content: flex-end;
+	background: #e0e0dc;
+	height: 3vh;
+}
+
+
+.nav a {
+	margin: 0 1%;
+	text-decoration: none;
+	color: grey;
+	padding: 0.5% 1%;
+	border-radius: 5%;
+	font-family: 'Nunito', sans-serif;
+}
+
+.title {
+	height: 12vh;
+    text-align: center;
+	
+}
+
+.title h1 {
+	padding-top: 2%;
+	padding-bottom: 2%;;
+	font-family: 'Audiowide', cursive;
+	font-size: 3rem;
+}
+
+/*HEADLINE SECTION*/
+
+.Headline {
+	
+	height: 8vh;
+	margin: 1%;
+    text-align: center;
+    height: 32vh;
+	
+}
+
+.Headline h1{
+	overflow: hidden;
+	border-right: .15em solid transparent;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .10em;
+	animation: typing 3.5s steps(40, end), blink-caret .75s step-end 2;
+	margin-top: 10%;
+	font-size: 7rem;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+
+@keyframes typing {
+	from {width: 0}
+	to {width: 70%}
+}
+
+@keyframes blink-caret {
+	from, to {border-color: transparent}
+	50% {border-color: black}
+}
+/*REVIEWS*/
+.review {
+    height: auto;
+    width: 80%;
+    margin: 2% auto;
+    background: linear-gradient(to right,#e0e0e0, #cff1ff);
+    transition: .35s ease-in-out;
+    overflow-wrap: break-word;
+
+}
+
+
+.review:hover{
+   transform: scale(1.1); 
+   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+.review h2 {
+    font-family: 'Nunito', sans-serif;
+    padding: 1%;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+.review h3 {
+    font-family: 'Nunito', sans-serif;
+    padding: 1%;
+    font-size: 1.45rem;
+}
+
+span {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.num {
+    color: #03a1fc;
+}
+
+/*Footer Section*/
+.footer-contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+}
+.footer-contact a{
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 0.5% 1%;
+	border-radius: 5%;
+	font-family: 'Nunito', sans-serif;
+}
+
+/*Contact Section*/
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+	background:#e0e0dc;
+	font-family: 'Nunito', sans-serif;
+}
+.info{
+    width: 27%;
+	margin: 3%;
+	line-height: 2rem;
+}
+.links a, .links address{
+    line-height: 3rem;
+    text-decoration: none;
+    color: grey;
+}
+.contact h2{
+    font-size: 2rem;
+}
+
+@media (max-width: 1000px){
+
+    /*NAV*/
+        .nav {
+            padding: 2%;
+            display: flex;
+            justify-content: center;
+            background: #e0e0dc;
+            height: 3vh;
+        }
+        /*HEADLINES*/
+        .review {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        .review h3 {
+            font-family: 'Nunito', sans-serif;
+            padding: 1%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            font-size: 1.45rem;
+        }             
+
+
+        .Headline {
+        
+            height: 4vh;
+            margin: 1%;
+            text-align: center;
+            
+        }
+        
+        .Headline h1{
+            padding-top: 4%;
+            overflow: hidden;
+            border-right: .15em solid transparent;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: .05em;
+            animation: typing 1.5s steps(30, end), blink-caret .75s step-end 3;
+            margin-top: 10%;
+            font-size: 6rem;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            color: black;
+        }
+        
+        @keyframes typing {
+            from {width: 0}
+            to {width: 70%}
+        }
+        
+        @keyframes blink-caret {
+            from, to {border-color: transparent}
+            50% {border-color: black}
+        }
+        
+    }
+    
+    
+    /*MOBILE 500PX*/
+    
+    @media (max-width: 700px){
+    
+        .contact h2 {
+            font-size: 1.5rem;
+        }
+    
+        .contact p {
+            font-size: 1rem;
+        }
+        address {
+            font-size: 1rem;
+        }
+    
+        .contact a  {
+            font-size: 1rem;
+        }
+        .Instructor-img{
+            display: none;
+    
+        }
+    
+        .Instructor-Det ul {
+            text-align: left;
+            padding-left: 20%;
+        }
+    
+    
+        .Client-det ul {
+            padding-left: 10%;
+            
+        }
+    
+        .Client-img{
+            display: none;
+        }
+        .title h1{
+            font-size: 2rem;
+            padding-top: 5%;
+        }
+        #landing-img {
+            height: 35vh;
+        }
+        .Headline {
+        
+        height: 8vh;
+        margin: 1%;
+        text-align: center;
+        
+    }
+    
+    .Headline h1{
+        padding-top: 4%;
+        overflow: hidden;
+        border-right: .15em solid transparent;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .10em;
+        animation: typing 1s steps(40, end), blink-caret .75s step-end 3;
+        margin-top: 10%;
+        font-size: 3.5rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        color: black;
+    }
+    
+    @keyframes typing {
+        from {width: 0}
+        to {width: 70%}
+    }
+    
+    @keyframes blink-caret {
+        from, to {border-color: transparent}
+        50% {border-color: black}
+    }
+    
+    }
