@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+    margin: 0;
+	padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 2.5rem;
+    background-color: #F5F5F5;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+/*Header Styles*/
+.nav-links{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    background:#e0e0dc;
+}
+.nav-links a {
+    margin: 0 1%;
+    text-decoration: none;
+    color: grey;
+    /* background: grey; */
+    padding: 0.5% 1%;
+    border-radius: 5%;
+}
+.nav-links a:hover{
+    color: #a4cbdb;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0 0 0;
+}
+h1{
+   font-family: 'Audiowide', cursive;
+   font-size: 4rem;
+   padding: 3%;
+}
+/*Top Section*/
+.header-img{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg);
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 2% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-button a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-size: 2.5rem;
+}
+.login-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    padding: 1% 4%;
+    border-radius: 5%;
+}
+.login-button:hover, .login-button a:hover{
+    background: white;
+    color: black;
+}
+/*Class Section*/
+#classes, #instructor{
+    display: flex;
+    margin: 0 2% 7% 2%;
+}
+#classes img, #instructor img{
+    width: 40%;
+    margin: 5% 3%;
+}
+#classes img{
+    filter: grayscale(15%);
+}
+.text-container{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 3rem;
+    justify-content: center;
+}
+.text-container p{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin: 3% 3% 0 3%;
+    font-family: 'Nunito', sans-serif;
+    padding: 2%;
+}
+.text-container h2{
+    margin: 5%;
+}
+.about-us{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 0 3% 0;
+}
+.about-button {
+    text-decoration: none;
+    font-size: 2rem;
+    background: black;
+    border-radius: 5%;
+    color: white;
+    padding: 2% 5%;
+}
+/*Contact Section*/
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+    background:#e0e0dc;
+    margin-top: 3%;
+}
+.info{
+    width: 27%;
+    margin: 3%;
+}
+.links a, .links address{
+    line-height: 3rem;
+    text-decoration: none;
+    color: grey;
+}
+.links a:hover, .links address:hover{
+    color: #a4cbdb;
+}
+.contact h2{
+    font-size: 2rem;
+}
+/*Footer Section*/
+.footer-contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+}
+.footer-contact a{
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 0.5% 1%;
+    border-radius: 5%;
+}
+/*At home workouts page*/
+/*Top Info Section*/
+.home-workout{
+    display: flex;
+    justify-content: center;
+    height: 60rem;
+    margin: 0 0 1% 0;
+}
+.workout-left-container{
+    width: 50%;
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 2%;
+    justify-content: center;
+}
+.workout-left-container h2{
+    font-size: 3rem;
+    margin: 0 0 3% 0;
+}
+.workout-left-container p{
+    margin: 0 0 5% 0;
+}
+.workout-text-container h2{
+    animation: type 3.5s;
+    overflow:hidden;
+    white-space:nowrap;
+}
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+    100%{
+        width:21ch;
+    }
+}
+.access-button{
+    text-decoration: none;
+    font-size: 2rem;
+    background: black;
+    border-radius: 5%;
+    color: white;
+    padding: 2% 5%;
+}
+.workout-right-container{
+    display: flex;
+    width: 45%;
+    padding: 2% 0;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/11/02/15/yoga-day-4329901_1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 15rem;
+    background-position-y: -90rem;
+    background-size: cover;
+}
+/*Video Section*/
+img{
+    width: 100%;
+}
+.at-home-workouts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
+    width: 40%;
+    margin: 3%;
+}
+.image1{
+    width: 43%;
+}
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
+    position: relative;
+    display: inline;
+}
+.image{
+    display: block;
+}
+.overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background: #cff1ff;
+}
+.image1:hover .overlay-left, .image2:hover .overlay-left, .image3:hover .overlay-left, .image4:hover .overlay-left, .image5:hover .overlay-left, .image6:hover .overlay-left, .image7:hover .overlay-left, .image8:hover .overlay-left{
+    width: 100%;
+    opacity: 0.8;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text a{
+    text-decoration: none;
+    color: black;
+}
+.overlay-left{
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: #cff1ff;
+    color: black;
+}
+/*Middle Navigation*/
+.middle-nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+    background: #e0e0dc;
+}
+.middle-nav a{
+    margin: 0 4%;
+    text-decoration: none;
+    color: grey;
+}
+.middle-nav a:hover{
+    color: #a4cbdb;
+}
+/*Media Queries*/
+/*Tablet Styles for Landing Page at 800px*/
+@media (max-width: 800px){
+    #classes, #instructor{
+        flex-direction: column;
+        align-items: center;
+        margin: 7% 3%;
+    }
+    #classes img, #instructor img {
+        width: 70%;
+    }
+    #instructor h2{
+        margin: 5% 0 1% 0;
+    }
+    .contact{
+        margin-top: 7%;
+    }
+}
+/*Iphone Styles for Landing Page at 800px*/
+@media (max-width: 500px){
+    .title-container h1{
+       font-size: 3.8rem;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+    }
+}
+/*Styles for At-Home-Workouts Page at 1024px*/
+@media (max-width: 1024px){
+    .workout-right-container{
+        background-position-x: 20rem;
+        background-position-y: -30rem;
+    }
+}
+/*Styles for At-Home-Workouts Page at 800px*/
+@media (max-width: 800px){
+    .workout-right-container{
+        background-position-x: 15rem;
+        background-position-y: -20rem;
+    }
+}
+/*Iphone Styles for .at-home-workouts Page at 500px*/
+@media (max-width: 500px){
+    .workout-right-container{
+        background-position-x: 10rem;
+        background-position-y: -10rem;
+    }
+    .workout-text-container h2{
+        white-space: normal;
+    }
+    .at-home-workouts {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+        width: 75%;
+    }
+}
