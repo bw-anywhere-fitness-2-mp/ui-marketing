@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,10 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 *{
     box-sizing: border-box;
     max-width: 100%;
@@ -34,43 +26,16 @@ time, mark, audio, video {
     margin: 0;
 	padding: 0;
 }
-<<<<<<< HEAD
 
 html{
     font-size: 62.5%;
-}
 
-=======
-html{
-    font-size: 62.5%;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
-body{
-    font-size:1.6rem;
-    line-height: 2.5rem;
-    background-color: #F5F5F5;
-    color: black;
-    font-family: 'Nunito', sans-serif;
-<<<<<<< HEAD
-    
-}
-
-/*Header Styles*/
-
-=======
-}
-/*Header Styles*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .nav-links{
     padding: 2%;
     display: flex;
     justify-content: flex-end;
     background:#e0e0dc;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .nav-links a {
     margin: 0 1%;
     text-decoration: none;
@@ -79,39 +44,25 @@ body{
     padding: 0.5% 1%;
     border-radius: 5%;
 }
-<<<<<<< HEAD
 
 .nav-links a:hover{
     color: #a4cbdb;
 }
 
-=======
-.nav-links a:hover{
-    color: #a4cbdb;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .title-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3% 0 0 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 h1{
    font-family: 'Audiowide', cursive;
    font-size: 4rem;
    padding: 3%;
 }
-<<<<<<< HEAD
 
 /*Top Section*/
 
-=======
-/*Top Section*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .header-img{
     background-image: url(https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg);
     height: 40rem;
@@ -123,22 +74,14 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .login-button a{
     text-decoration: none;
     font-size: 2rem;
     color: white;
     font-size: 2.5rem;
-<<<<<<< HEAD
  
 }
 
-=======
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .login-button{
     display: flex;
     flex-direction: column;
@@ -147,44 +90,26 @@ h1{
     padding: 1% 4%;
     border-radius: 5%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .login-button:hover, .login-button a:hover{
     background: white;
     color: black;
 }
-<<<<<<< HEAD
 
 /*Class Section*/
 
-=======
-/*Class Section*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 #classes, #instructor{
     display: flex;
     margin: 0 2% 7% 2%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 #classes img, #instructor img{
     width: 40%;
     margin: 5% 3%;
 }
-<<<<<<< HEAD
 
 #classes img{
     filter: grayscale(15%);
 }
 
-=======
-#classes img{
-    filter: grayscale(15%);
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .text-container{
     font-size: 3rem;
     display: flex;
@@ -193,10 +118,6 @@ h1{
     line-height: 3rem;
     justify-content: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .text-container p{
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -204,17 +125,11 @@ h1{
     font-family: 'Nunito', sans-serif;
     padding: 2%;
 }
-<<<<<<< HEAD
 
 .text-container h2{
     margin: 5%;
 }
 
-=======
-.text-container h2{
-    margin: 5%;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .about-us{
     background-image: url(https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg);
     height: 40rem;
@@ -223,10 +138,6 @@ h1{
     background-size: cover;
     margin: 0 0 3% 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .about-button {
     text-decoration: none;
     font-size: 2rem;
@@ -235,13 +146,9 @@ h1{
     color: white;
     padding: 2% 5%;
 }
-<<<<<<< HEAD
 
 /*Contact Section*/
 
-=======
-/*Contact Section*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .contact{
     display: flex;
     flex-wrap: wrap;
@@ -251,24 +158,15 @@ h1{
     background:#e0e0dc;
     margin-top: 3%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .info{
     width: 27%;
     margin: 3%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .links a, .links address{
     line-height: 3rem;
     text-decoration: none;
     color: grey;
 }
-<<<<<<< HEAD
 
 .links a:hover, .links address:hover{
     color: #a4cbdb;
@@ -281,15 +179,6 @@ h1{
 
 /*Footer Section*/
 
-=======
-.links a:hover, .links address:hover{
-    color: #a4cbdb;
-}
-.contact h2{
-    font-size: 2rem;
-}
-/*Footer Section*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .footer-contact{
     display: flex;
     flex-wrap: wrap;
@@ -297,10 +186,6 @@ h1{
     padding: 3%;
     justify-content: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .footer-contact a{
     margin: 1%;
     text-decoration: none;
@@ -309,26 +194,17 @@ h1{
     padding: 0.5% 1%;
     border-radius: 5%;
 }
-<<<<<<< HEAD
 
 /*At home workouts page*/
 
 /*Top Info Section*/
 
-=======
-/*At home workouts page*/
-/*Top Info Section*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .home-workout{
     display: flex;
     justify-content: center;
     height: 60rem;
     margin: 0 0 1% 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .workout-left-container{
     width: 50%;
     line-height: 2.5rem;
@@ -338,25 +214,15 @@ h1{
     margin: 0 0 0 2%;
     justify-content: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .workout-left-container h2{
     font-size: 3rem;
     margin: 0 0 3% 0;
 }
-<<<<<<< HEAD
 
 .workout-left-container p{
     margin: 0 0 5% 0;
 }
 
-=======
-.workout-left-container p{
-    margin: 0 0 5% 0;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .workout-text-container h2{
     animation: type 3.5s;
     overflow:hidden;
@@ -370,10 +236,6 @@ h1{
         width:21ch;
     }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .access-button{
     text-decoration: none;
     font-size: 2rem;
@@ -382,10 +244,6 @@ h1{
     color: white;
     padding: 2% 5%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .workout-right-container{
     display: flex;
     width: 45%;
@@ -396,7 +254,6 @@ h1{
     background-position-x: 15rem;
     background-position-y: -90rem;
     background-size: cover;
-<<<<<<< HEAD
 
 }
 
@@ -406,13 +263,6 @@ img{
     width: 100%;
 }
 
-=======
-}
-/*Video Section*/
-img{
-    width: 100%;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .at-home-workouts {
     display: flex;
     flex-wrap: wrap;
@@ -424,68 +274,40 @@ img{
     width: 40%;
     margin: 3%;
 }
-<<<<<<< HEAD
 
 .image1{
     width: 43%;
 }
 
-=======
-.image1{
-    width: 43%;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
     position: relative;
     display: inline;
 }
-<<<<<<< HEAD
 
 .image{
     display: block;
 }
 
-=======
-.image{
-    display: block;
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .overlay{
     position: absolute;
     transition: all .3s ease;
     opacity: 0;
     background: #cff1ff;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .image1:hover .overlay-left, .image2:hover .overlay-left, .image3:hover .overlay-left, .image4:hover .overlay-left, .image5:hover .overlay-left, .image6:hover .overlay-left, .image7:hover .overlay-left, .image8:hover .overlay-left{
     width: 100%;
     opacity: 0.8;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .text a{
     text-decoration: none;
     color: black;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .overlay-left{
     height: 100%;
     width: 100%;
@@ -494,10 +316,6 @@ img{
     background-color: #cff1ff;
     color: black;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 /*Middle Navigation*/
 .middle-nav{
     display: flex;
@@ -507,16 +325,11 @@ img{
     justify-content: center;
     background: #e0e0dc;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 .middle-nav a{
     margin: 0 4%;
     text-decoration: none;
     color: grey;
 }
-<<<<<<< HEAD
 
 .middle-nav a:hover{
     color: #a4cbdb;
@@ -528,20 +341,11 @@ img{
 
 @media (max-width: 800px){
   
-=======
-.middle-nav a:hover{
-    color: #a4cbdb;
-}
-/*Media Queries*/
-/*Tablet Styles for Landing Page at 800px*/
-@media (max-width: 800px){
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
     #classes, #instructor{
         flex-direction: column;
         align-items: center;
         margin: 7% 3%;
     }
-<<<<<<< HEAD
 
     #classes img, #instructor img {
         width: 70%;
@@ -551,19 +355,10 @@ img{
         margin: 5% 0 1% 0;
     }
 
-=======
-    #classes img, #instructor img {
-        width: 70%;
-    }
-    #instructor h2{
-        margin: 5% 0 1% 0;
-    }
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
     .contact{
         margin-top: 7%;
     }
 }
-<<<<<<< HEAD
 
 /*Iphone Styles for Landing Page at 800px*/
 
@@ -583,20 +378,6 @@ img{
 
 }
 
-=======
-/*Iphone Styles for Landing Page at 800px*/
-@media (max-width: 500px){
-    .title-container h1{
-       font-size: 3.8rem;
-    }
-    .contact{
-        flex-direction: column;
-    }
-    .info{
-        width: 100%;
-    }
-}
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 /*Styles for At-Home-Workouts Page at 1024px*/
 @media (max-width: 1024px){
     .workout-right-container{
@@ -604,10 +385,6 @@ img{
         background-position-y: -30rem;
     }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 /*Styles for At-Home-Workouts Page at 800px*/
 @media (max-width: 800px){
     .workout-right-container{
@@ -615,13 +392,9 @@ img{
         background-position-y: -20rem;
     }
 }
-<<<<<<< HEAD
 
 /*Iphone Styles for .at-home-workouts Page at 500px*/
 
-=======
-/*Iphone Styles for .at-home-workouts Page at 500px*/
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 @media (max-width: 500px){
     .workout-right-container{
         background-position-x: 10rem;
@@ -637,8 +410,4 @@ img{
     .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
         width: 75%;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> c1763e06210716d9e9e10be2b79d52db0630b2a8
 }
