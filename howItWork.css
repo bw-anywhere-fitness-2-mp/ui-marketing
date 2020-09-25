@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito&family=Orbitron&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,9 +34,9 @@ body {
 /*NAV AND HEADER STYLING*/
 	
 #landing-img{
-	border: 1px solid black;
+	border: 2.5px solid black;
 	height: 70vh;
-	background-image: url('https://i1.wp.com/www.suvatayoga.com/wp-content/uploads/2015/01/woman-with-arms-outstretched-against-blue-sky-317155.jpg?fit=1980%2C1322&ssl=1');
+	background-image: url('https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_1280.jpg');
 	background-size: cover;
 }
 .nav {
@@ -53,6 +54,7 @@ body {
 	color: grey;
 	padding: 0.5% 1%;
 	border-radius: 5%;
+	font-family: 'Nunito', sans-serif;
 }
 
 .title {
@@ -70,7 +72,7 @@ body {
 
 /*END OF HEADER NAV STYLE*/
 
-/*start of body*/
+/*HEADLINE SECTION*/
 
 .Headline {
 	
@@ -121,7 +123,7 @@ button a {
 	text-decoration: none;
 	color: white;
 }
-
+/*END OF HEADLINE SECTION*/
 /*INSTRUCTOR SECTION*/
 
 .parent1{
@@ -136,6 +138,7 @@ button a {
 	width: 100%;
 	margin-top: 3%;
 	margin-left: 5%;
+	margin-bottom: 3%;
 	height: 70vh;
 	border-radius: 15px;
 	text-align: center;
@@ -146,8 +149,8 @@ button a {
 .Instructor-Det {
 
 width: 100%;
-height: 70vh;
-padding-top:10%;
+height: 70%;
+padding-top:6%;
 text-align: center;
 margin: 3%;
 margin-bottom: 0;
@@ -214,8 +217,8 @@ margin-bottom: 0;
 }
 
 .Client-det {
-height: 70vh;
-padding-top:10%;
+height: 70%;
+padding-top:6%;
 text-align: center;
 	margin: 3%;
 	margin-top: 0;
@@ -243,6 +246,8 @@ text-align: center;
 	padding-left: 34%;
 }
 
+/*END OF CLIENT SECTION*/
+
 /*Footer Section*/
 .footer-contact{
     display: flex;
@@ -257,5 +262,181 @@ text-align: center;
     color: white;
     background: grey;
     padding: 0.5% 1%;
-    border-radius: 5%;
+	border-radius: 5%;
+	font-family: 'Nunito', sans-serif;
+}
+
+/*Contact Section*/
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+	background:#e0e0dc;
+	font-family: 'Nunito', sans-serif;
+}
+.info{
+    width: 27%;
+	margin: 3%;
+	line-height: 2rem;
+}
+.links a, .links address{
+    line-height: 3rem;
+    text-decoration: none;
+    color: grey;
+}
+.contact h2{
+    font-size: 2rem;
+}
+
+/*MEDIA QUERYS*/
+/*TABLET 800PX*/
+@media (max-width: 1000px){
+
+/*NAV*/
+	.nav {
+		padding: 2%;
+		display: flex;
+		justify-content: center;
+		background: #e0e0dc;
+		height: 3vh;
+	}
+	/*HEADLINES*/
+	
+	
+	.Headline {
+	
+		height: 4vh;
+		margin: 1%;
+		text-align: center;
+		
+	}
+	
+	.Headline h1{
+		padding-top: 4%;
+		overflow: hidden;
+		border-right: .15em solid transparent;
+		white-space: nowrap;
+		margin: 0 auto;
+		letter-spacing: .05em;
+		animation: typing 1.5s steps(30, end), blink-caret .75s step-end 3;
+		margin-top: 10%;
+		font-size: 6rem;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 200;
+		color: black;
+	}
+	
+	@keyframes typing {
+		from {width: 0}
+		to {width: 70%}
+	}
+	
+	@keyframes blink-caret {
+		from, to {border-color: transparent}
+		50% {border-color: black}
+	}
+	
+	.Client-det ul {
+		padding-left: 0;
+		
+	}
+
+	.Instructor-Det ul {
+		text-align: left;
+		padding-left: 0%;
+	}
+
+	button {
+		margin: 3%;
+	background-color: black;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	width: 20%;
+	padding: 1.5%;
+	border: none;
+	font-size: 1rem;
+	font-weight: 150;
+	}
+}
+
+
+/*MOBILE 500PX*/
+
+@media (max-width: 700px){
+
+	.contact h2 {
+		font-size: 1.5rem;
+	}
+
+	.contact p {
+		font-size: 1rem;
+	}
+	address {
+		font-size: 1rem;
+	}
+
+	.contact a  {
+		font-size: 1rem;
+	}
+	.Instructor-img{
+		display: none;
+
+	}
+
+	.Instructor-Det ul {
+		text-align: left;
+		padding-left: 20%;
+	}
+
+
+	.Client-det ul {
+		padding-left: 10%;
+		
+	}
+
+	.Client-img{
+		display: none;
+	}
+	.title h1{
+		font-size: 2rem;
+		padding-top: 5%;
+	}
+	#landing-img {
+		height: 35vh;
+	}
+	.Headline {
+	
+	height: 8vh;
+	margin: 1%;
+	text-align: center;
+	
+}
+
+.Headline h1{
+	padding-top: 4%;
+	overflow: hidden;
+	border-right: .15em solid transparent;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .10em;
+	animation: typing 1s steps(40, end), blink-caret .75s step-end 3;
+	margin-top: 10%;
+	font-size: 3.5rem;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+
+@keyframes typing {
+	from {width: 0}
+	to {width: 70%}
+}
+
+@keyframes blink-caret {
+	from, to {border-color: transparent}
+	50% {border-color: black}
+}
+
 }
